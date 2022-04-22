@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Cambria";
+    src: url(./fonts/Cambria.ttf), url(./fonts/cambriab.ttf), url(./fonts/CAMBRIAZ.TTF) url(./fonts/CAMBRIAI.TTF);
+}
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, sans-serif;
+    background: rgb(219, 229, 242);
+    color: rgb(89, 140, 157);
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4{
+    letter-spacing: 0.1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 0.9rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: rgb(164, 233, 251);
+    border: 0;
+    border-radius: .2rem;
+    transition: all 0.3s linear;
+}
+
+.name{
+    font-size: 2rem;
+    color: rgba(190, 0, 0, 0.636);
+    padding: 0 1rem;
+    margin: .5rem;
+}
+
+.logo > img{
+    height: 50px;
+}
+
+.logo{
+    height: 50px;
+    padding: 0 1rem;
+    margin: .5rem;
+}
+
+main{
+    margin: 2rem;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s linear;
+}
+
+.image{
+    text-align: center;
+    margin: 0 6rem;
+}
+
+.para_about{
+    margin: 0 4rem;
+}
+
+ul > li {
+    border-bottom: .1em solid tan;
+    color: rgb(116, 147, 157);
+}
+
+
+@media screen and (max-width: 1100px){
+    .about{
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image{
+        margin-bottom: 2rem;
+    }
+
+    .para_about{
+        margin: 1.5rem;
+        text-align: center;
+    }
+}
+
+
