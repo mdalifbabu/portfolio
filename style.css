@@ -98,6 +98,85 @@ ul > li {
 
 .skills{
     margin-bottom: 3rem;
+    transition: all 0.3s linear;
+}
+
+.project{
+
+}
+
+.enthusiastic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hobby{
+    display: flex;
+    justify-content: start;
+    transition: all 0.3s linear;
+    margin-left: 4rem;
+}
+
+.topic{
+    margin-right: 1rem;
+}
+
+.topic > img{
+    height: 50px;
+    width: 50px;
+}
+
+.topic > p{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.fashion_img{
+    margin-right: 4rem;
+    transition: all 0.3s linear;
+    padding: .5rem;
+    border: 0;
+    border-radius: 1rem;
+    background: rgb(254, 254, 254);;
+    box-shadow: 0 0px 3px rgb(144, 255, 33);
+}
+
+.fashion_img > img{
+    width: 350px;
+    height: 500px;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 255, 255);
+    border: 0;
+    border-radius: .2rem;
+    transition: all 0.3s linear;
+}
+
+.copyright{
+    margin: 0 2rem;
+}
+
+.media > ul {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.media > ul > li{
+    margin: 1rem;
+    color: green;
+}
+
+.media > ul > li > a > i{
+    text-decoration: none;
+    color: green;
 }
 
 
