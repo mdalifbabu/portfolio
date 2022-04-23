@@ -79,6 +79,7 @@ main{
     align-items: center;
     letter-spacing: 0.1rem;
     transition: all 0.3s linear;
+    margin: 3rem 0;
 }
 
 .image{
@@ -93,6 +94,10 @@ main{
 ul > li {
     border-bottom: .1em solid tan;
     color: rgb(116, 147, 157);
+}
+
+.skills{
+    margin-bottom: 3rem;
 }
 
 

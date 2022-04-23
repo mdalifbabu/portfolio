@@ -1,0 +1,917 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Cambria";
+    src: url(./fonts/Cambria.ttf), url(./fonts/cambriab.ttf), url(./fonts/CAMBRIAZ.TTF) url(./fonts/CAMBRIAI.TTF);
+}
+
+#codeconSkills {
+    font-size: 10px;
+    height: auto;
+}
+
+.codeconSkillbar {
+    width: 90%;
+    height: 20px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+    border-radius: .2rem;
+}
+
+#codeconPS {
+    animation: Animate-PS 4s;
+    -webkit-animation: Animate-PS 4s;
+    -moz-animation: Animate-PS 4s;
+    -o-animation: Animate-PS 4s;
+    width: 81%;
+    height: 20px;
+    position: absolute;
+    background-color: #0cc160;
+}
+
+@keyframes Animate-PS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 81%
+    }
+}
+
+@-webkit-keyframes Animate-PS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 81%
+    }
+}
+
+@-moz-keyframes Animate-PS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 81%
+    }
+}
+
+@-o-keyframes Animate-PS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 81%
+    }
+}
+
+#codeconDEV {
+    animation: Animate-DEV 4s;
+    -webkit-animation: Animate-DEV 4s;
+    -moz-animation: Animate-DEV 4s;
+    -o-animation: Animate-DEV 4s;
+    width: 71%;
+    height: 20px;
+    position: absolute;
+    background-color: #0ca9c1;
+}
+
+@keyframes Animate-DEV {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 71%
+    }
+}
+
+@-webkit-keyframes Animate-DEV {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 71%
+    }
+}
+
+@-moz-keyframes Animate-DEV {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 71%
+    }
+}
+
+@-o-keyframes Animate-DEV {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 71%
+    }
+}
+
+#codeconC {
+    animation: Animate-C 4s;
+    -webkit-animation: Animate-C 4s;
+    -moz-animation: Animate-C 4s;
+    -o-animation: Animate-C 4s;
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    background-color: #5c2d6b;
+}
+
+@keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 90%
+    }
+}
+
+@-webkit-keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 90%
+    }
+}
+
+@-moz-keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 90%
+    }
+}
+
+@-o-keyframes Animate-C {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 90%
+    }
+}
+
+#codeconJAVA {
+    animation: Animate-JAVA 4s;
+    -webkit-animation: Animate-JAVA 4s;
+    -moz-animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 70%;
+    height: 20px;
+    position: absolute;
+    background-color: #c44e45;
+}
+
+@keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-webkit-keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-moz-keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-o-keyframes Animate-JAVA {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+#codeconJS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 20px;
+    position: absolute;
+    background-color: #d1c93a;
+}
+
+@keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+@-webkit-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+@-moz-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+@-o-keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+#codeconTS {
+    animation: Animate-TS 4s;
+    -webkit-animation: Animate-TS 4s;
+    -moz-animation: Animate-TS 4s;
+    -o-animation: Animate-TS 4s;
+    width: 60%;
+    height: 20px;
+    position: absolute;
+    background-color: #137073;
+}
+
+@keyframes Animate-TS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+@-webkit-keyframes Animate-TS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+@-moz-keyframes Animate-TS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+@-o-keyframes Animate-TS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+#codeconPY {
+    animation: Animate-PY 4s;
+    -webkit-animation: Animate-PY 4s;
+    -moz-animation: Animate-PY 4s;
+    -o-animation: Animate-PY 4s;
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    background-color: #d4b21a;
+}
+
+@keyframes Animate-PY {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
+}
+
+@-webkit-keyframes Animate-PY {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
+}
+
+@-moz-keyframes Animate-PY {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
+}
+
+@-o-keyframes Animate-PY {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 50%
+    }
+}
+
+#codeconSB {
+    animation: Animate-SB 4s;
+    -webkit-animation: Animate-SB 4s;
+    -moz-animation: Animate-SB 4s;
+    -o-animation: Animate-SB 4s;
+    width: 68%;
+    height: 20px;
+    position: absolute;
+    background-color: #1ad477;
+}
+
+@keyframes Animate-SB {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 68%
+    }
+}
+
+@-webkit-keyframes Animate-SB {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 68%
+    }
+}
+
+@-moz-keyframes Animate-SB {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 68%
+    }
+}
+
+@-o-keyframes Animate-SB {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 68%
+    }
+}
+
+#codeconDJ {
+    animation: Animate-DJ 4s;
+    -webkit-animation: Animate-DJ 4s;
+    -moz-animation: Animate-DJ 4s;
+    -o-animation: Animate-DJ 4s;
+    width: 55%;
+    height: 20px;
+    position: absolute;
+    background-color: #077b28;
+}
+
+@keyframes Animate-DJ {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 55%
+    }
+}
+
+@-webkit-keyframes Animate-DJ {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 55%
+    }
+}
+
+@-moz-keyframes Animate-DJ {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 55%
+    }
+}
+
+@-o-keyframes Animate-DJ {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 55%
+    }
+}
+
+#codeconAN {
+    animation: Animate-AN 4s;
+    -webkit-animation: Animate-AN 4s;
+    -moz-animation: Animate-AN 4s;
+    -o-animation: Animate-AN 4s;
+    width: 63%;
+    height: 20px;
+    position: absolute;
+    background-color: #bd1919;
+}
+
+@keyframes Animate-AN {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 63%
+    }
+}
+
+@-webkit-keyframes Animate-AN {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 63%
+    }
+}
+
+@-moz-keyframes Animate-AN {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 63%
+    }
+}
+
+@-o-keyframes Animate-AN {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 63%
+    }
+}
+
+#codeconRE {
+    animation: Animate-RE 4s;
+    -webkit-animation: Animate-RE 4s;
+    -moz-animation: Animate-RE 4s;
+    -o-animation: Animate-RE 4s;
+    width: 20%;
+    height: 20px;
+    position: absolute;
+    background-color: #063543;
+}
+
+@keyframes Animate-RE {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+@-webkit-keyframes Animate-RE {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+@-moz-keyframes Animate-RE {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+@-o-keyframes Animate-RE {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+#codeconSQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    background-color: #3789a1;
+}
+
+@keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@-webkit-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@-moz-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@-o-keyframes Animate-SQL {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+#codeconCSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 20px;
+    position: absolute;
+    background-color: #55a69f;
+}
+
+@keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-webkit-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-moz-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@-o-keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+#codeconHTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 20px;
+    position: absolute;
+    background-color: #ea8564;
+}
+
+@keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-moz-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-o-keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+#codeconCLOUD {
+    animation: Animate-CLOUD 4s;
+    -webkit-animation: Animate-CLOUD 4s;
+    -moz-animation: Animate-CLOUD 4s;
+    -o-animation: Animate-CLOUD 4s;
+    width: 20%;
+    height: 20px;
+    position: absolute;
+    background-color: #a564ea;
+}
+
+@keyframes Animate-CLOUD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+@-webkit-keyframes Animate-CLOUD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+@-moz-keyframes Animate-CLOUD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+@-o-keyframes Animate-CLOUD {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 20%
+    }
+}
+
+#codeconLINUX {
+    animation: Animate-LINUX 4s;
+    -webkit-animation: Animate-LINUX 4s;
+    -moz-animation: Animate-LINUX 4s;
+    -o-animation: Animate-LINUX 4s;
+    width: 77%;
+    height: 20px;
+    position: absolute;
+    background-color: #040306;
+}
+
+@keyframes Animate-LINUX {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 77%
+    }
+}
+
+@-webkit-keyframes Animate-LINUX {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 77%
+    }
+}
+
+@-moz-keyframes Animate-LINUX {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 77%
+    }
+}
+
+@-o-keyframes Animate-LINUX {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 77%
+    }
+}
+
+#codeconWS {
+    animation: Animate-WS 4s;
+    -webkit-animation: Animate-WS 4s;
+    -moz-animation: Animate-WS 4s;
+    -o-animation: Animate-WS 4s;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    background-color: #64bbea;
+}
+
+@keyframes Animate-WS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-webkit-keyframes Animate-WS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-moz-keyframes Animate-WS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@-o-keyframes Animate-WS {
+    from {
+        width: 10px;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.codeconSkillArea {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Cambria, sans-serif;
+    letter-spacing: .1rem;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Cambria, sans-serif;
+    font-size: 12px;
+}
