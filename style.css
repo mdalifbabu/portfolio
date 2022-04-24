@@ -73,6 +73,8 @@ main{
     margin: 2rem;
 }
 
+/* About */
+
 .about{
     display: flex;
     justify-content: space-between;
@@ -96,44 +98,105 @@ ul > li {
     color: rgb(116, 147, 157);
 }
 
+/* Skills */
+
 .skills{
     margin-bottom: 3rem;
     transition: all 0.3s linear;
 }
 
-/* .project{
+.codeconSkillbar:hover{
+    background-color: rgb(202, 202, 202);
+}
 
-} */
+/* Project */
+
+.projects{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    transition: all 0.3s linear;
+}
+
+.project{
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 1rem;
+    background-color: lightslategray;
+    color: aliceblue;
+
+    display: grid;
+    grid-template-rows: 200px 200px;
+    text-align: center;
+}
+
+.project:hover{
+    transition: all 0.3s ease-in-out;
+    transform: translate(10px, 10px);
+}
+
+.project img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.project p{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+/* Hobby */
 
 .enthusiastic{
+    margin: 2rem 0;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
 }
 
 .hobby{
-    display: flex;
-    justify-content: start;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
     transition: all 0.3s linear;
-    margin-left: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .topic{
-    margin-right: 1rem;
+    box-shadow: 5px 10px 18px green;
+    border: 0;
+    border-radius: 1rem;
+    background-color: lightslategray;
+    color: aliceblue;
+
+    display: grid;
+    grid-template-rows: 100px 80px;
+    text-align: center;
 }
 
-.topic > img{
-    height: 50px;
-    width: 50px;
+.topic:hover{
+    box-shadow: 5px 10px 18px red;
 }
 
-.topic > p{
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
+.topic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.topic p{
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
 }
 
 .fashion_img{
-    margin-right: 4rem;
     transition: all 0.3s linear;
     padding: .5rem;
     border: 0;
@@ -142,12 +205,15 @@ ul > li {
     box-shadow: 0 0px 3px rgb(144, 255, 33);
 }
 
-.fashion_img > img{
+.fashion_img img{
     width: 350px;
     height: 500px;
     border: 0;
     border-radius: 1rem;
 }
+
+
+/* Footer */
 
 .footer{
     display: flex;
@@ -164,21 +230,27 @@ ul > li {
     margin: 0 2rem;
 }
 
-.media > ul {
+.media ul {
     display: flex;
     margin: 0 2rem;
 }
 
-.media > ul > li{
+.media li{
+    font-size: 1.5rem;
     margin: 1rem;
     color: green;
 }
 
-.media > ul > li > a > i{
+.media  i{
     text-decoration: none;
     color: green;
 }
 
+.media i:hover{
+   cursor: pointer;
+   color: rgb(60, 174, 219);
+   font-size: 2rem;
+}
 
 @media screen and (max-width: 1100px){
     .about{
@@ -197,6 +269,24 @@ ul > li {
     .para_about{
         margin: 1.5rem;
         text-align: center;
+    }
+}
+
+@media (min-width: 789px){
+    .enthusiastic{
+        margin: 3rem 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fashion_img {
+        margin-left: 2rem;
+    }
+
+    .projects{
+        margin: 0 4rem 0 4rem;
     }
 }
 
