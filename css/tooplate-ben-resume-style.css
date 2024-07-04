@@ -162,7 +162,7 @@ https://www.tooplate.com/view/2120-ben-resume
     transition: all 0.4s linear;
   }
 
-  a:hover  {
+  a::hover  {
     color: var(--dark-color);
     text-decoration: none;
   }
